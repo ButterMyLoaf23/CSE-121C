@@ -70,7 +70,7 @@ int main(void)
     float smallest = 0.0f;
     float largest = 0.0f;
     float average = 0.0f;
-
+    /*This is where the float numbers are stored*/
     printf("\nEnter 10 floating-point numbers.\n");
     for (int index = 0; index < 10; index++) {
         printf("Value %d: ", index + 1);
@@ -79,7 +79,7 @@ int main(void)
 
     smallest = values[0];
     largest = values[0];
-
+    /*This is where the float numbers you entered are calculated*/
     printf("\nThe values you entered are:\n");
     for (int index = 0; index < 10; index++) {
         printf("%f\n", values[index]);
@@ -93,7 +93,7 @@ int main(void)
             largest = values[index];
         }
     }
-
+    /*This is where the numbers are then dispalyed as their minimum, Max, and the average of the numbers you added.*/
     average = total / 10;
     printf("Minimum: %f\n", smallest);
     printf("Maximum: %f\n", largest);

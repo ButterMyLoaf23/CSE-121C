@@ -50,14 +50,14 @@ int main(void)
         }
     } while (choice != 0);
 
-    /* Part 2: Print the numbers from 1 through 10. */
+    /* Task 2: Print the numbers from 1 through 10. */
     printf("\nNumbers from 1 to 10:\n");
     for (int number = 1; number <= 10; number++) {
         printf("%d ", number);
     }
     printf("\n");
 
-    /* Part 3: Print the numbers from 10 down to 1. */
+    /* Task 3: Print the numbers from 10 down to 1. */
     printf("\nNumbers from 10 down to 1:\n");
     for (int number = 10; number >= 1; number--) {
         printf("%d ", number);
@@ -65,8 +65,8 @@ int main(void)
     printf("\n");
 
     /*
-     * Part 4: Store 10 floating-point values in an array.
-     * The first position in the array is position 0.
+     * Task 4 store 10 floating point values in an array.
+     * Starts off at position 0.
      */
     float values[10];
     float total = 0.0f;
@@ -102,7 +102,7 @@ int main(void)
     printf("Maximum: %f\n", largest);
     printf("Average: %f\n", average);
 
-    /* Part 5: Use the minimum function with two integers. */
+    /* Task 5: FInds the smallest of the two numbers. */
     int firstNumber = 0;
     int secondNumber = 0;
     int smallerNumber = 0;

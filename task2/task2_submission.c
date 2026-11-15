@@ -13,7 +13,7 @@ int minimum(int first, int second)
 int main(void)
 {
     int choice = 0;
-
+    /*Task 1: This is the store enter the number that is associated with the item you want and press 0 to leave the store and continue to the next task*/
     do {
         printf("\nStore Menu\n");
         printf("1. Notebook - $4.99\n");
@@ -64,10 +64,7 @@ int main(void)
     }
     printf("\n");
 
-    /*
-     * Task 4 store 10 floating point values in an array.
-     * Starts off at position 0.
-     */
+    /*Task 4: store 10 floating point values in an array.*/
     float values[10];
     float total = 0.0f;
     float smallest = 0.0f;
@@ -102,7 +99,7 @@ int main(void)
     printf("Maximum: %f\n", largest);
     printf("Average: %f\n", average);
 
-    /* Task 5: FInds the smallest of the two numbers. */
+    /* Task 5: Finds the smallest of the two numbers. */
     int firstNumber = 0;
     int secondNumber = 0;
     int smallerNumber = 0;
